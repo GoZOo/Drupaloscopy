@@ -57,9 +57,13 @@ if [[ $drupalversion != "" ]]; then
 
   getLastDrupalVersion
   # Define if version is the recommended one.
-  if [[ "`echo $drupalversion | grep "^$drupalmajor\.${lastdrupalversion[$drupalmajor]}$"`" = "" ]]; then
+  versionprefix=""
+  if [ $drupalmajor -gt 7 ]; then
+    versionprefix="$drupalmajor."
+  fi
+  if [[ "`echo $drupalversion | grep "^$versionprefix${lastdrupalversion[$drupalmajor]}$"`" = "" ]]; then
     drupalversion=`echo $drupalversion | sed 's/ / or /g'`
-    versionstatus=" (NOT RECOMMENDED - RECOMMEND: $drupalmajor.${lastdrupalversion[$drupalmajor]})"
+    versionstatus=" (NOT RECOMMENDED - RECOMMENDED: $versionprefix${lastdrupalversion[$drupalmajor]})"
   else
     drupalversion=`echo $drupalversion | sed 's/ / or /g'`
     versionstylestatus="ok"
