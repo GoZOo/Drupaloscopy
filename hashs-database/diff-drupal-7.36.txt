@@ -1,0 +1,5 @@
+misc/autocomplete.js
+misc/tabledrag.js
+misc/tableselect.js
+misc/vertical-tabs.js
+modules/field_ui/field_ui.js

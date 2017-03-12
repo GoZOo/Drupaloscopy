@@ -1,0 +1,17 @@
+core/assets/vendor/ckeditor/ckeditor.js
+core/assets/vendor/ckeditor/lang/eu.js
+core/assets/vendor/ckeditor/lang/id.js
+core/assets/vendor/ckeditor/lang/ug.js
+core/assets/vendor/ckeditor/lang/uk.js
+core/assets/vendor/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js
+core/assets/vendor/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js
+core/assets/vendor/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js
+core/assets/vendor/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js
+core/assets/vendor/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js
+core/assets/vendor/ckeditor/plugins/clipboard/dialogs/paste.js
+core/assets/vendor/ckeditor/plugins/specialchar/dialogs/lang/eu.js
+core/assets/vendor/ckeditor/plugins/specialchar/dialogs/lang/pl.js
+core/misc/tabbingmanager.js
+core/modules/ckeditor/js/plugins/drupallink/plugin.js
+core/modules/editor/js/editor.formattedTextEditor.js
+core/modules/views/js/base.js

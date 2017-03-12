@@ -1,0 +1,13 @@
+misc/drupal.js
+misc/states.js
+misc/tableselect.js
+modules/contextual/contextual.css
+modules/dblog/dblog.css
+modules/locale/tests/locale_test.js
+modules/node/node-rtl.css
+modules/openid/openid.js
+modules/overlay/overlay-child.css
+modules/simpletest/files/css_test_files/comment_hacks.css.unoptimized.css
+themes/seven/reset.css
+themes/seven/style-rtl.css
+themes/seven/style.css

@@ -1,0 +1,10 @@
+misc/collapse.js
+misc/tableheader.js
+misc/textarea.js
+modules/node/node.css
+modules/openid/openid.css
+modules/openid/openid.js
+modules/poll/poll.css
+modules/taxonomy/taxonomy.css
+themes/garland/style.css
+themes/pushbutton/style-rtl.css

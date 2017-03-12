@@ -1,0 +1,17 @@
+core/assets/vendor/ckeditor/ckeditor.js
+core/assets/vendor/ckeditor/lang/bn.js
+core/assets/vendor/ckeditor/skins/moono/dialog.css
+core/assets/vendor/ckeditor/skins/moono/dialog_ie.css
+core/assets/vendor/ckeditor/skins/moono/dialog_ie7.css
+core/assets/vendor/ckeditor/skins/moono/dialog_ie8.css
+core/assets/vendor/ckeditor/skins/moono/dialog_iequirks.css
+core/assets/vendor/ckeditor/skins/moono/editor.css
+core/assets/vendor/ckeditor/skins/moono/editor_gecko.css
+core/assets/vendor/ckeditor/skins/moono/editor_ie.css
+core/assets/vendor/ckeditor/skins/moono/editor_ie7.css
+core/assets/vendor/ckeditor/skins/moono/editor_ie8.css
+core/assets/vendor/ckeditor/skins/moono/editor_iequirks.css
+core/misc/ajax.js
+core/misc/tableselect.js
+core/modules/system/tests/themes/test_ckeditor_stylesheets_relative/css/yokotsoko.css
+core/themes/seven/css/components/tables.css

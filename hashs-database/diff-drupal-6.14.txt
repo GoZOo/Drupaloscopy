@@ -1,0 +1,3 @@
+misc/drupal.js
+modules/system/system.js
+themes/garland/style.css

@@ -1,0 +1,3 @@
+misc/ajax.js
+misc/autocomplete.js
+misc/drupal.js

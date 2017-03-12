@@ -1,0 +1,17 @@
+misc/ahah.js
+misc/drupal.js
+misc/jquery.form.js
+misc/jquery.js
+misc/tableheader.js
+modules/block/block-rtl.css
+modules/block/block.css
+modules/book/book.css
+modules/openid/openid.js
+modules/poll/poll.css
+modules/system/system-menus-rtl.css
+modules/system/system-menus.css
+modules/system/system-rtl.css
+modules/system/system.css
+themes/garland/minnelli/style-rtl.css
+themes/garland/style-rtl.css
+themes/garland/style.css

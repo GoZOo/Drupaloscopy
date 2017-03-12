@@ -1,0 +1,5 @@
+misc/drupal.js
+misc/farbtastic/farbtastic.js
+misc/jquery.js
+misc/tabledrag.js
+modules/system/admin.css

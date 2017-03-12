@@ -1,0 +1,163 @@
+* { 
+  margin:0; padding:0; 
+}
+      
+body { 
+  font-family: Arial, Helvetica;
+  text-align: center;
+  color: #222222;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+header {
+    display: block;
+    margin-bottom: 3%;
+    text-align: left;
+    width: 100%;
+    padding: 1em;
+    background: #0678be;
+}
+
+header #sitename {
+  display: block;
+  letter-spacing: 0.01em
+}
+
+#content {
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  text-align: left;
+}
+
+label {
+  display: inline-block;
+  width: 7em;
+}
+
+#content .fLabel {
+  left: 10px !important;
+  height: 50px !important;
+  font-size: 45px !important;
+  line-height: 40px !important;
+  top: 12px !important;
+}
+
+form {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  padding-right: 85px;
+}
+
+.help {
+  padding-top: 10px;
+  font-size: 0.75em;
+  font-weight: normal;
+  color: #969093;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+input.text {
+  width: 100%;
+  padding: 5px 70px 5px 10px;
+  font-size: 1.5em;
+  line-height: 40px;
+  outline: none;
+  border: 3px solid #0678BE;
+  height: 50px;
+}
+
+input.submit {
+  width: 49px;
+  height: 55px;
+  background: url(images/drupal.png) no-repeat left top;
+  position: absolute;
+  border: 0;
+  display: block;
+  top: 5px;
+  right: 10px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+input.submit:hover {
+  background: url(images/drupal.png) no-repeat left -55px;
+}
+input.submit:active {
+  background: url(images/drupal.png) no-repeat left bottom;
+}
+  
+input.fail {
+}
+  
+  input:focus {
+  }
+
+  a, a:visited {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    border-bottom: 1px dotted #fff;
+  }
+
+#result {
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+.line {
+  float: none;
+  clear: both;
+  padding: 10px;
+}
+.label {
+  display: inline-block;
+  width: 25%;
+  vertical-align: middle;
+}
+.result {
+  display: inline-block;
+}
+.line.warning {
+  background: #F5B43B;
+}
+.line.fail {
+  background: #EB6859;
+}
+.line.ok {
+  background: #79BF67;
+}
+
+.explaination {
+  background: #7AC3F0;
+  font-weight: normal;
+  letter-spacing: normal;
+  font-size: 0.8em;
+  padding: 1em;
+  margin-top: 1.5em;
+}
+
+.explaination li {
+  line-height: 1.5em;
+  list-style-position: inside;
+}
+
+footer {
+  font-size: 0.5em;
+  font-weight: normal;
+  letter-spacing: normal;
+  margin: 1em auto;
+  text-align: right;
+  padding: 0 10%;
+}
+footer div {
+  display: inline-block;
+  margin: 1em auto;
+}

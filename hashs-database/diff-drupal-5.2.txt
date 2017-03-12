@@ -1,0 +1,11 @@
+misc/drupal.js
+misc/farbtastic/farbtastic.css
+misc/textarea.js
+modules/color/color.css
+modules/color/color.js
+modules/comment/comment.css
+modules/node/node.css
+themes/garland/fix-ie.css
+themes/garland/minnelli/style.css
+themes/garland/print.css
+themes/garland/style.css

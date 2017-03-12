@@ -1,0 +1,7 @@
+misc/tabledrag.js
+modules/block/block.js
+modules/profile/profile.js
+modules/system/system-rtl.css
+modules/system/system.css
+modules/system/system.js
+modules/taxonomy/taxonomy.js

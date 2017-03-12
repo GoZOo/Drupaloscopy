@@ -1,0 +1,5 @@
+misc/machine-name.js
+modules/comment/comment.css
+modules/dashboard/dashboard-rtl.css
+modules/overlay/overlay-child.css
+themes/bartik/css/style.css

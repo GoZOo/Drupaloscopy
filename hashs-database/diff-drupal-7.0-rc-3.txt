@@ -1,0 +1,9 @@
+misc/ajax.js
+modules/node/node.js
+themes/bartik/color/preview.css
+themes/bartik/color/preview.js
+themes/bartik/css/ie.css
+themes/bartik/css/style-rtl.css
+themes/bartik/css/style.css
+themes/seven/reset.css
+themes/seven/style.css

@@ -1,0 +1,8 @@
+misc/collapse.js
+misc/progress.js
+modules/block/block.css
+modules/menu/menu.css
+modules/system/system.css
+modules/taxonomy/taxonomy.css
+themes/garland/print.css
+themes/garland/style.css

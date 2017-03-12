@@ -1,0 +1,6 @@
+misc/ajax.js
+modules/locale/locale-rtl.css
+modules/locale/locale.css
+modules/user/user-rtl.css
+modules/user/user.css
+modules/user/user.permissions.js

@@ -1,0 +1,13 @@
+misc/ajax.js
+misc/machine-name.js
+misc/tableheader.js
+modules/aggregator/aggregator-rtl.css
+modules/aggregator/aggregator.css
+modules/book/book-rtl.css
+modules/book/book.css
+modules/book/book.js
+modules/dblog/dblog-rtl.css
+modules/dblog/dblog.css
+modules/forum/forum-rtl.css
+modules/forum/forum.css
+modules/overlay/overlay-parent.js

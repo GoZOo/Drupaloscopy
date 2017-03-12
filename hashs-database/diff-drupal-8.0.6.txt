@@ -1,0 +1,4 @@
+core/misc/autocomplete.js
+core/modules/block/js/block.js
+core/modules/ckeditor/js/plugins/drupalimage/plugin.js
+core/modules/views_ui/js/ajax.js

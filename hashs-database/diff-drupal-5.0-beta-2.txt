@@ -1,0 +1,11 @@
+misc/collapse.js
+misc/jquery.js
+misc/tableselect.js
+modules/book/book.css
+modules/color/color.css
+modules/forum/forum.css
+modules/system/admin.css
+modules/system/system.css
+themes/garland/fix-ie.css
+themes/garland/style.css
+themes/pushbutton/style.css

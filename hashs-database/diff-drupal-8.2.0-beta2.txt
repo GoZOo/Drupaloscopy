@@ -1,0 +1,8 @@
+core/misc/dialog/dialog.ajax.js
+core/modules/content_moderation/css/entity-moderation-form.css
+core/modules/outside_in/css/outside_in.module.css
+core/modules/outside_in/css/outside_in.motion.css
+core/modules/outside_in/css/outside_in.theme.css
+core/modules/outside_in/js/offcanvas.js
+core/modules/outside_in/js/outside_in.js
+core/themes/seven/css/components/form.css

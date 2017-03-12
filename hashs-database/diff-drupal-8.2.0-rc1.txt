@@ -1,0 +1,8 @@
+core/misc/tabledrag.js
+core/modules/block_place/css/block-place.css
+core/modules/outside_in/css/outside_in.module.css
+core/modules/outside_in/css/outside_in.theme.css
+core/modules/outside_in/js/offcanvas.js
+core/modules/outside_in/js/outside_in.js
+core/modules/toolbar/js/views/ToolbarVisualView.js
+core/themes/bartik/css/components/comments.css

@@ -1,0 +1,10 @@
+misc/authorize.js
+misc/drupal.js
+modules/contextual/contextual-rtl.css
+modules/contextual/contextual.css
+modules/contextual/contextual.js
+modules/file/file.css
+modules/locale/tests/locale_test.js
+modules/overlay/overlay-child-rtl.css
+modules/system/system.base.css
+themes/seven/style.css

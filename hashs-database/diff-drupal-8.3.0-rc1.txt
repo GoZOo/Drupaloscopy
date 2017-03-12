@@ -1,0 +1,8 @@
+core/assets/vendor/jquery/jquery.js
+core/assets/vendor/jquery/jquery.min.js
+core/modules/field_layout/layouts/twocol/twocol.layout.css
+core/modules/layout_discovery/layouts/onecol/onecol.css
+core/modules/layout_discovery/layouts/threecol_25_50_25/threecol_25_50_25.css
+core/modules/layout_discovery/layouts/threecol_33_34_33/threecol_33_34_33.css
+core/modules/layout_discovery/layouts/twocol_bricks/twocol_bricks.css
+core/themes/seven/css/theme/maintenance-page.css

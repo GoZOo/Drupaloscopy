@@ -1,0 +1,8 @@
+misc/drupal.js
+misc/jquery.js
+misc/tabledrag.js
+modules/system/system.js
+modules/update/update.css
+themes/garland/fix-ie.css
+themes/garland/minnelli/minnelli.css
+themes/garland/style.css

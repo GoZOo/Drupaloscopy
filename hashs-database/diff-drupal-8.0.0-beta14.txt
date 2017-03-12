@@ -1,0 +1,7 @@
+core/modules/color/tests/modules/color_test/themes/color_test_theme/js/color_test_theme-fontsize.js
+core/modules/comment/js/comment-new-indicator.js
+core/themes/bartik/css/components/comments.css
+core/themes/bartik/css/components/contextual.css
+core/themes/bartik/css/components/dropbutton.component.css
+core/themes/bartik/css/components/form.css
+core/themes/seven/css/components/form.css

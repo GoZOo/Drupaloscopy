@@ -1,0 +1,4 @@
+misc/tabledrag.js
+misc/tableheader.js
+modules/dblog/dblog-rtl.css
+modules/dblog/dblog.css

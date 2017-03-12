@@ -1,0 +1,10 @@
+core/misc/states.js
+core/misc/tableselect.js
+core/modules/ckeditor/js/plugins/drupalimage/plugin.js
+core/modules/ckeditor/js/plugins/drupalimagecaption/plugin.js
+core/modules/color/color.js
+core/modules/color/css/color.admin.css
+core/modules/node/node.js
+core/themes/bartik/css/components/field.css
+core/themes/classy/css/components/dialog.css
+core/themes/stable/css/color/color.admin.css

@@ -1,0 +1,13 @@
+misc/ajax.js
+modules/dashboard/dashboard.js
+modules/field/modules/text/text.js
+modules/simpletest/files/css_test_files/css_input_with_import.css.optimized.css
+modules/simpletest/files/css_test_files/css_input_with_import.css.unoptimized.css
+modules/simpletest/files/css_test_files/css_subfolder/css_input_with_import.css.optimized.css
+modules/simpletest/files/css_test_files/css_subfolder/css_input_with_import.css.unoptimized.css
+modules/simpletest/files/css_test_files/import1.css
+modules/system/system.base-rtl.css
+modules/system/system.base.css
+themes/bartik/css/style-rtl.css
+themes/bartik/css/style.css
+themes/seven/style.css

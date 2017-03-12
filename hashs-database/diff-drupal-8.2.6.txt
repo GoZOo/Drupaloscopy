@@ -1,0 +1,16 @@
+core/misc/dialog/dialog.position.js
+core/modules/outside_in/css/offcanvas.css
+core/modules/outside_in/css/offcanvas.motion.css
+core/modules/outside_in/css/outside_in.details.css
+core/modules/outside_in/css/outside_in.form.css
+core/modules/outside_in/css/outside_in.module.css
+core/modules/outside_in/css/outside_in.motion.css
+core/modules/outside_in/css/outside_in.table.css
+core/modules/outside_in/css/outside_in.tabledrag.css
+core/modules/outside_in/css/outside_in.theme.css
+core/modules/outside_in/js/offcanvas.js
+core/modules/outside_in/js/outside_in.js
+core/modules/outside_in/tests/modules/outside_in_test_css/css/css_fix.theme.css
+core/modules/system/tests/modules/js_webassert_test/js/js_webassert_test.wait_for_ajax_request.js
+core/modules/system/tests/modules/js_webassert_test/js/js_webassert_test.wait_for_element.js
+core/themes/bartik/css/components/block.css

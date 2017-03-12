@@ -1,0 +1,3 @@
+misc/collapse.js
+misc/drupal.js
+misc/vertical-tabs.js

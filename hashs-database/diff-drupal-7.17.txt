@@ -1,0 +1,11 @@
+misc/collapse.js
+misc/states.js
+modules/book/book.js
+modules/file/file.js
+modules/overlay/overlay-child-rtl.css
+modules/overlay/overlay-child.css
+modules/overlay/overlay-child.js
+modules/overlay/overlay-parent.css
+modules/overlay/overlay-parent.js
+modules/shortcut/shortcut.admin.js
+modules/system/system.base.css

@@ -1,0 +1,13 @@
+misc/autocomplete.js
+misc/states.js
+misc/tableselect.js
+modules/field_ui/field_ui.js
+modules/file/file.js
+modules/forum/forum-rtl.css
+modules/forum/forum.css
+modules/locale/locale.datepicker.js
+modules/simpletest/simpletest.js
+modules/system/system.base.css
+modules/update/update-rtl.css
+modules/update/update.css
+themes/bartik/css/style.css

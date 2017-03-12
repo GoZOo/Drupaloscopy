@@ -1,0 +1,10 @@
+core/misc/tabledrag.js
+core/modules/ckeditor/js/plugins/drupallink/plugin.js
+core/modules/content_translation/content_translation.admin.js
+core/modules/system/css/components/progress.module.css
+core/modules/views_ui/js/views_ui.listing.js
+core/themes/bartik/css/components/main-content.css
+core/themes/bartik/css/components/text-formatted.css
+vendor/jcalderonzumba/gastonjs/src/Client/browser.js
+vendor/jcalderonzumba/gastonjs/src/Client/main.js
+vendor/jcalderonzumba/gastonjs/src/Client/poltergeist.js
