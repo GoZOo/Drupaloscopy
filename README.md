@@ -17,3 +17,6 @@ Drush is required to know recommended version of Drupal.
 ## My local drupaloscopy is not up to date with last drupal versions.
 * Launch ```./update-hashs-base.sh```. This will download and generate hashs for missing drupal versions. It's recommended to launch this script in crontab to update frequently hash database.
 * In Crontab: ```cd path/to/drupaloscopy; ./update-hashs-base.sh```
+
+## I don't see Recommended version in results.
+Scripts cannot find or execute drush. Add `drush_script` file at drupaloscopy's root and put in file path to your drush binary. Ex: `/home/drupaloscopy/.drush/drush`

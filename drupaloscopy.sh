@@ -12,6 +12,13 @@ rm -Rf $tmpdirectory
 mkdir $tmpdirectory
 cd $tmpdirectory
 
+# If drush cannot be found, use drush_script.
+# File drush_script has to be created manually with path to drush.
+drush="drush"
+if [ -f ../drush_script ]; then
+  drush=`cat ../drush_script`
+fi
+
 # Get Drupal major version from Drupal version.
 getDrupalMajorFromDrupalVersion() {
   drupalmajor=`echo $drupalversion | cut -d'.' -f1`
@@ -21,7 +28,7 @@ getLastDrupalVersion ()
 {
   # No lastdrupalversion for this major version yet
   if [ "${lastdrupalversion[$versionmajor]}" = "" ]; then
-    lastdrupalversion[$drupalmajor]=`drush rl drupal-$drupalmajor | sed -n '/Recommended/{p;q;}' | sed 's/.* *\([0-9]\.[0-9]*\) .*/\1/'`
+    lastdrupalversion[$drupalmajor]=`$drush rl drupal-$drupalmajor | sed -n '/Recommended/{p;q;}' | sed 's/.* *\([0-9]\.[0-9]*\) .*/\1/'`
   fi
 }
 
