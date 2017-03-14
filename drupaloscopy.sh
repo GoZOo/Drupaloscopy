@@ -41,7 +41,7 @@ if [ -z `../get-http-status.sh $1$baseroot/misc/drupal.js` ]; then
   ../setlog.sh "{\"label\": \"Drupal Site\", \"result\": \"YES\", \"style\": \"ok\"}"
 
   # Log if changelog is protected or not.
-  if [ ! -z `../get-http-status.sh $1$baseroot/CHANGELOG.txt` ]; then 
+  if [ -z `../get-http-status.sh $1$baseroot/CHANGELOG.txt` ]; then
     ../setlog.sh "{\"label\": \".TXT files Protection\", \"result\": \"NO - Your .txt files are not protected and are readable. You should remove them or deny access.\", \"style\": \"fail\"}"
   else
     ../setlog.sh "{\"label\": \".TXT files Protection\", \"result\": \"YES\", \"style\": \"ok\"}"
