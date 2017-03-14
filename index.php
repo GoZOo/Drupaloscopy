@@ -2,7 +2,7 @@
 <html xml:lang="en" lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Get accessible informations about Drupal website | Drupaloscopy</title>
+  <title>Get accessible information about Drupal websites | Drupaloscopy</title>
   <link rel="stylesheet" type="text/css" media="screen, projection" href="assets/style.css" />
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="assets/jquery.formLabels1.0.js" type="text/javascript"></script>
@@ -16,12 +16,12 @@
 <header>
   <div id="sitename">Drupaloscopy</div>
 </header>
-<h1>Get Drupal Informations on website</h1>
+<h1>Get Drupal information about websites</h1>
 <div id="content">
   <form method="GET">
     <input type="text" name="domain" value="<?php print isset($_GET['domain']) ? $_GET['domain'] : ''; ?>" class="text" title="www.domainename.com">
     <input type="submit" value="submit" class="submit">
-    <div class="help">Domain name have to be exact. Don't use www. prefix if your site haven't (and vice versa).</div>
+    <div class="help">The domain name has to be correct. Use the <i>www.</i> prefix only if your site uses it (and vice versa).</div>
   </form>
   <div id="result">
   <?php
@@ -45,14 +45,14 @@
   else {
 ?>
   <div class="explaination">
-    <p>With Drupaloscopy, you can get informations about Drupal Sites depends of how it's protected :</p>
+    <p>With Drupaloscopy, you can get information about Drupal Sites and how they are protected:</p>
     <ul>
-      <li>Is this site is Drupal Site ?</li>
-      <li>Which Drupal version is used ?</li>
-      <li>Are .txt files protected and readable ?</li>
-      <li>Are CSS and JS aggregated ?</li>
-      <li>Is Drupal Cache enabled ?</li>
-      <li>Is GZIP Compression enabled ?</li>
+      <li>Is this a Drupal site?</li>
+      <li>Which Drupal version is used?</li>
+      <li>Are <i>.txt</i> files protected and readable?</li>
+      <li>Are CSS and JS aggregated?</li>
+      <li>Is Drupal's cache enabled?</li>
+      <li>Is GZIP Compression enabled?</li>
     </ul>
   </div>
 <?php   
