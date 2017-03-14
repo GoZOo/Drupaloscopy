@@ -32,24 +32,18 @@ getLastDrupalVersion ()
   fi
 }
 
-# # CHANGELOG is not relyable anymore.
-# drupalversion=`../check-changelog.sh $1`
-
-# # Drupal version has already been found.
-# if [ ! -z $drupalversion ]; then
-#   fromchangelog=true
-# # Drupal version has not been found thanks to CHANGELOG. We need to use hash on css and js files.
-# else
-  drupalversion=`../find-version.sh $1`
-# fi
+drupalversion=`../find-version.sh $1`
 
 # Version has been found.
-if [[ $drupalversion != "" ]]; then
+baseroot=`../find-baseroot.sh $1`
+echo $1$baseroot/misc/drupal.js
+../get-http-status.sh $1$baseroot/misc/drupal.js
+if [ -z `../get-http-status.sh $1$baseroot/misc/drupal.js` ]; then 
   getDrupalMajorFromDrupalVersion
   ../setlog.sh "{\"label\": \"Drupal Site\", \"result\": \"YES\", \"style\": \"ok\"}"
 
   # Log if changelog is protected or not.
-  if [ ! -z $drupalversion ]; then
+  if [ ! -z `../get-http-status.sh $1$baseroot/CHANGELOG.txt` ]; then 
     ../setlog.sh "{\"label\": \".TXT files Protection\", \"result\": \"NO - Your .txt files are not protected and are readable. You should remove them or deny access.\", \"style\": \"fail\"}"
   else
     ../setlog.sh "{\"label\": \".TXT files Protection\", \"result\": \"YES\", \"style\": \"ok\"}"

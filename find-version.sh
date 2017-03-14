@@ -3,7 +3,7 @@ baseroot=`../find-baseroot.sh $1`
 
 # First check if misc/drupal.js file exists. It should exist to be a drupal site.
 if [ ! -z `../get-http-status.sh $1$baseroot/misc/drupal.js` ]; then
-  exit;
+  exit
 fi
 
 # First looking for drupal.js file will determine major version and limit the search.
@@ -14,6 +14,15 @@ hashmiscdrupaljs=`../generate-hash.sh $filename`
 
 # Search for versions corresponding to this hash.
 ../get-tags-corresponding-to-hash.sh $filename $hashmiscdrupaljs > site-drupaltags-candidates.txt
+
+# If no candidates, try with changelog. Warning! Changelog is no more relyable since 8.x.
+if [ -z `cat site-drupaltags-candidates.txt` ]; then
+  drupalversion=`../check-changelog.sh $1`
+  if [ ! -z $drupalversion ]; then
+    echo $drupalversion
+    exit
+  fi
+fi
 
 touch site-files-checked.txt
 
@@ -51,7 +60,7 @@ for versiontocheck in $(tac site-drupaltags-candidates.txt); do
     # Exit if only 1 tag left.
     if [ `cat site-drupaltags-candidates.txt | wc -l` -eq 1 ]; then
       cat site-drupaltags-candidates.txt
-      exit;
+      exit
     fi
   done < ../hashs-database/diff-drupal-$versiontocheck.txt
 done
