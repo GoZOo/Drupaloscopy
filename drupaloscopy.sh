@@ -36,8 +36,6 @@ drupalversion=`../find-version.sh $1`
 
 # Version has been found.
 baseroot=`../find-baseroot.sh $1`
-echo $1$baseroot/misc/drupal.js
-../get-http-status.sh $1$baseroot/misc/drupal.js
 if [ -z `../get-http-status.sh $1$baseroot/misc/drupal.js` ]; then 
   getDrupalMajorFromDrupalVersion
   ../setlog.sh "{\"label\": \"Drupal Site\", \"result\": \"YES\", \"style\": \"ok\"}"
