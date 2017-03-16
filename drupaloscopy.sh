@@ -53,13 +53,17 @@ if [ -z `../get-http-status.sh $1$baseroot/misc/drupal.js` ]; then
   if [ $drupalmajor -gt 7 ]; then
     versionprefix="$drupalmajor."
   fi
+
   if [[ "`echo $drupalversion | grep "^$versionprefix${lastdrupalversion[$drupalmajor]}$"`" = "" ]]; then
-    drupalversion=`echo $drupalversion | sed 's/ / or /g'`
     versionstatus=" (NOT RECOMMENDED - RECOMMENDED: $versionprefix${lastdrupalversion[$drupalmajor]})"
+    if [[ "`echo $drupalversion | grep "$versionprefix${lastdrupalversion[$drupalmajor]}"`" != "" ]]; then
+      versionstylestatus="ok"
+      versionstatus=" (MAY BE RECOMMENDED - RECOMMENDED: $versionprefix${lastdrupalversion[$drupalmajor]})"
+    fi
   else
-    drupalversion=`echo $drupalversion | sed 's/ / or /g'`
     versionstylestatus="ok"
   fi
+  drupalversion=`echo $drupalversion | sed 's/ / or /g'`
   ../setlog.sh "{\"label\": \"Drupal Version\", \"result\": \"$drupalversion$versionstatus\", \"style\": \"$versionstylestatus\"}"
 
   # Get page.html to make search on it
