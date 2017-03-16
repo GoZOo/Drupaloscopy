@@ -16,7 +16,7 @@ hashmiscdrupaljs=`../generate-hash.sh $filename`
 ../get-tags-corresponding-to-hash.sh $filename $hashmiscdrupaljs > site-drupaltags-candidates.txt
 
 # If no candidates, try with changelog. Warning! Changelog is no more relyable since 8.x.
-if [ -z `cat site-drupaltags-candidates.txt` ]; then
+if [[ "`cat site-drupaltags-candidates.txt`" = "" ]]; then
   drupalversion=`../check-changelog.sh $1`
   if [ ! -z $drupalversion ]; then
     echo $drupalversion
