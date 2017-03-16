@@ -39,3 +39,5 @@
 8.3.0-alpha1:ed67b3db2cc1b4d9b20ffdedcd6a9fffbff7dc72ba87b907f575e85e1f522bf4
 8.3.0-beta1:ed67b3db2cc1b4d9b20ffdedcd6a9fffbff7dc72ba87b907f575e85e1f522bf4
 8.3.0-rc1:ed67b3db2cc1b4d9b20ffdedcd6a9fffbff7dc72ba87b907f575e85e1f522bf4
+8.2.7:ed67b3db2cc1b4d9b20ffdedcd6a9fffbff7dc72ba87b907f575e85e1f522bf4
+8.3.0-rc2:ed67b3db2cc1b4d9b20ffdedcd6a9fffbff7dc72ba87b907f575e85e1f522bf4

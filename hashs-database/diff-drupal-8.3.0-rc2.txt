@@ -1,0 +1,3 @@
+core/modules/field_ui/field_ui.js
+core/modules/quickedit/js/views/EntityToolbarView.js
+core/modules/views_ui/js/views-admin.js

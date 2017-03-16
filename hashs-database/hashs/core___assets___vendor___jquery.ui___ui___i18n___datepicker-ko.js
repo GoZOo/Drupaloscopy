@@ -45,3 +45,5 @@
 8.3.0-alpha1:ca16cecfd134029be5bac9ebba71306513cdc78c8be2cafc4acb920da03c0cea
 8.3.0-beta1:ca16cecfd134029be5bac9ebba71306513cdc78c8be2cafc4acb920da03c0cea
 8.3.0-rc1:ca16cecfd134029be5bac9ebba71306513cdc78c8be2cafc4acb920da03c0cea
+8.2.7:ca16cecfd134029be5bac9ebba71306513cdc78c8be2cafc4acb920da03c0cea
+8.3.0-rc2:ca16cecfd134029be5bac9ebba71306513cdc78c8be2cafc4acb920da03c0cea
