@@ -15,6 +15,16 @@ hashmiscdrupaljs=`../generate-hash.sh $filename`
 # Search for versions corresponding to this hash.
 ../get-tags-corresponding-to-hash.sh $filename $hashmiscdrupaljs > site-drupaltags-candidates.txt
 
+# If no tag is found, remove first empty line if there is and launch hash detection again.
+# If no tag is found, this means drupal.js has been hacked.
+if [[ "`cat site-drupaltags-candidates.txt`" = "" ]]; then
+  filename=`../generate-filename.sh $baseroot/misc/tabledrag.js`
+  curl --silent --location $1$baseroot/misc/tabledrag.js --output $filename
+  hashmiscdrupaljs=`../generate-hash.sh $filename`
+  # Search for versions corresponding to this hash.
+  ../get-tags-corresponding-to-hash.sh $filename $hashmiscdrupaljs > site-drupaltags-candidates.txt
+fi
+
 # If no candidates, try with changelog. Warning! Changelog is no more relyable since 8.x.
 if [[ "`cat site-drupaltags-candidates.txt`" = "" ]]; then
   drupalversion=`../check-changelog.sh $1`
