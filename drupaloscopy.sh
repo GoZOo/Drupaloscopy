@@ -53,8 +53,9 @@ if [ -z `../get-http-status.sh $1$baseroot/misc/drupal.js` ]; then
   if [ $drupalmajor -gt 7 ]; then
     versionprefix="$drupalmajor."
   fi
-
-  if [[ "`echo $drupalversion | grep "^$versionprefix${lastdrupalversion[$drupalmajor]}$"`" = "" ]]; then
+  if [ $drupalmajor -lt 7 ]; then
+    versionstatus=" (NOT RECOMMENDED)"
+  elif [[ "`echo $drupalversion | grep "^$versionprefix${lastdrupalversion[$drupalmajor]}$"`" = "" ]]; then
     versionstatus=" (NOT RECOMMENDED - RECOMMENDED: $versionprefix${lastdrupalversion[$drupalmajor]})"
     if [ -z $drupalversion ]]; then
       versionstatus="NOT FOUND"
