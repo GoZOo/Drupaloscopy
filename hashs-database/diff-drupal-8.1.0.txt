@@ -1,0 +1,3 @@
+core/assets/vendor/ckeditor/ckeditor.js
+core/assets/vendor/ckeditor/lang/nl.js
+core/assets/vendor/ckeditor/plugins/table/dialogs/table.js
