@@ -49,7 +49,7 @@ temppath=`pwd`
 `tac release-history-$versionmajor.x.txt > release-history-$versionmajor.x.ordered.txt`
 while read TAG; do
   #../update-hashs-tag-generate.sh drupal $TAG "${baseroot}misc/drupal.js"
-  if [ `cat $database/$versionlist | grep "$TAG" | wc -l` -eq 0 ]; then
+  if [ `cat $database/$versionlist | grep "^$TAG$" | wc -l` -eq 0 ]; then
     cd $temppath/..
     # Download files
     echo "Download drupal-$TAG.tar.gz"
